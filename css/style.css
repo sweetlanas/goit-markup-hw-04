@@ -163,6 +163,7 @@ a {
 
 .hero {
   background-color: #c4c4c4;
+
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -178,11 +179,12 @@ a {
   margin: 0 auto;
 
   text-align: center;
-  padding: 200px 452px;
+  padding: 200px 0;
 }
 
 .hero-title {
   margin-bottom: 30px;
+  min-width: 696px;
 
   font-weight: 900;
   font-size: 44px;
